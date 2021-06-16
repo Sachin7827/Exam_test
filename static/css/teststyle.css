@@ -1,0 +1,18 @@
+body{
+  background-color:green;
+  font-family: calibri;
+}
+#block{
+  border: 2px solid green;
+  margin: auto;
+  background-color: white;
+  width: 60%;
+}
+#block div{
+  padding: 10px;
+}
+h1{
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+}

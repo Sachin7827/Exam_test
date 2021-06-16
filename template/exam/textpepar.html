@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+{% load app_tags %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test pepar</title>
+    <link rel="stylesheet" href="{% static 'css/teststyle.css' %}">
+  </head>
+  <body>
+    <h1>Test pepar</h1>
+    <p>{% get_date %}</p>
+    <div class="a" id="block">
+
+
+    <div class="">
+    {{ que | quotes }}
+    </div>
+    {% for option in options %}
+    <div class="">
+      <input type="radio" name="option_a" > {{option}}
+    </div>
+    {% endfor %}
+    <div class="">
+      <input type="submit" value="submit" >
+    </div>
+      </div>
+  </body>
+</html>
